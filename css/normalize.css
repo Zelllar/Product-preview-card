@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Fraunces", serif;
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-wrapper {
+    padding: 5rem 0 10.75rem 0;
+    box-sizing: border-box;
+}

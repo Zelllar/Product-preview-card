@@ -1,0 +1,9 @@
+:root {
+    --black: rgb(28, 35, 43);
+    --grey: rgb(108, 114, 137);
+    --cream: rgb(242, 234, 226);
+    --white: rgb(255, 255, 255);
+    --green500: rgb(61, 129, 104);
+    --green700: rgb(26, 64, 50);
+    font-size: 16px;
+}
