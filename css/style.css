@@ -105,30 +105,17 @@ button:active {
 @media (min-width: 48rem) {
     .product-card {
         display: flex;
-        flex-direction: row;
         max-width: 37.5rem;
-        width: 100%;
-        align-items: stretch;
-    }
-
-    picture {
-        flex: 1 1 auto;
-        border-radius: 8px 0 0 8px;
-        width: 100%;
-        max-width: 21.87rem;
-        height: auto;
-        box-sizing: border-box;
-    }
-
-    picture img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 
     .product-textblock {
-        flex: 1 1 auto;
+        max-width: 18.75rem;
+    }
+
+    picture img {
+        border-radius: 8px 0 0 8px;
+        width: auto;
+        height: 100%;
     }
 
 }
